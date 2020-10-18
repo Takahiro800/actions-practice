@@ -6,6 +6,6 @@ jobs:
     name: Greeting
     steps:
       - name: Checkout
-        uses: actions/chekout@v1
+        uses: actions/checkout@v1
       - name: hello
         uses: ./
