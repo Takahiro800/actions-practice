@@ -1,0 +1,7 @@
+# アクションの名前を定義している
+name: "Hello World"
+runs:
+  #JavaScriptアクションであること
+  using: "node12"
+  # アクション実行時に読み込まれるファイルの定義
+  main: "index.js"
